@@ -22,21 +22,23 @@ if (helado == 'Fresa'){
 helado == 'Fresa' ? console.log(helado) : console.log('Otro helado');
 
 //LOOPS bucles
-
+///////////////////////////////////// While
 console.log('While')
 while (count < 10) {
     console.log(count);
     count +=1;
 }
 
+//////////////////////////////////// Do While
 count = 1
 console.log('do While')
 do {
     console.log(count);
     count++;
-  } while (count < 5)
+  } while (count < 10)
 
-  console.log('For')
-for (count= 0; count < 10; count += 2) {
+//////////////////////////////////// For
+console.log('For')
+for (count= 0; count < 10; count += 1) {
   console.log(count);
 }
